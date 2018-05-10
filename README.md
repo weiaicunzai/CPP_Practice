@@ -3,3 +3,7 @@
 
 *mostly about data struct and algorithm(implementing using CPP)
 
+
+sort:
+insertion_sort
+
