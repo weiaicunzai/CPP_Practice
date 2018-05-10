@@ -114,6 +114,7 @@ void insertionSort2(std::vector<int> &arr)
 */
 
 
+//final version
 void insertionSort(std::vector<int> &arr)
 {
     for(int i = 0; i < arr.size(); i++) 
@@ -145,9 +146,10 @@ void insertionSort(std::vector<int> &arr)
         displayArr(arr);
     }
 }
+
 int main()
 {
-    int arr[] = {12, 11, 13, 5, 6, 33, 4234, 35, 66, 77, 234, 534, 53,4545,456, 5 , 6 , 87, 78};
+    int arr[] = {12, 11, 13, 5, 6, 33, 4234, 35, 66, 77, 234, 534, 53, 4545, 456, 5, 6, 87, 78};
     std::vector<int> test(arr, arr + sizeof(arr) / sizeof(int));
     //time complexity  O(n^2)
     insertionSort(test);
