@@ -1,4 +1,5 @@
-# hello-world
+#CPP practice
 
 
-I dont know what to write,maybe just some random dkdkdkdlaldklfjdaslkfj,or  whatever.
+*mostly about data struct and algorithm(implementing using CPP)
+
