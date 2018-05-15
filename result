@@ -1,0 +1,1000 @@
+ 1006  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscripttrain_score.lua  -smodel score_model_init.net 
+ 1007  nvidia-smi
+ 1008  sudo kill -7 8635
+ 1009  ls
+ 1010  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscripttrain_score.lua  -smodel score_model_init.net 
+ 1011  nvidia-smi
+ 1012  sudo kill -9 14904
+ 1013  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscripttrain_score.lua  -smodel score_model_init.net 
+ 1014  nvidia-smi
+ 1015  sudo kill -9 14945
+ 1016  sudo kill -9 14981
+ 1017  cd ..
+ 1018  ls
+ 1019  cd core
+ 1020  ls
+ 1021  cmake ..
+ 1022  make -j30\
+ 1023  make -j30
+ 1024  cd ..
+ 1025  cd 7scenes/
+ 1026  cd 7scenes_chess/
+ 1027  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscripttrain_score.lua  -smodel score_model_init.net 
+ 1028  cd ..
+ 1029  cd core 
+ 1030  cd build
+ 1031  ls
+ 1032  cmake ..
+ 1033  make -j30
+ 1034  cd ..
+ 1035  ls
+ 1036  cd core
+ 1037  cd ..
+ 1038  cd 7scenes/
+ 1039  cd 7scenes_chess/
+ 1040  ls
+ 1041  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscripttrain_score.lua  -smodel score_model_init.net 
+ 1042  nvidia-smi
+ 1043  sudo kill -9 19063
+ 1044  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1045  cd 
+ 1046  cd Desktop/
+ 1047  ls
+ 1048  cd Untitled\ Folder/
+ 1049  ls
+ 1050  test.py
+ 1051  python test.py
+ 1052  ln -s scene  ../train/scene
+ 1053  ln -s scene  ../training/scene
+ 1054  ls
+ 1055  ln -s   ../training/scene  scene
+ 1056  ls
+ 1057  python
+ 1058  pwd
+ 1059  ls
+ 1060  python vgg_test.py
+ 1061  ls /home/admin-bai/.torch/models/
+ 1062  python vgg_test.py
+ 1063  python test.py 
+ 1064  python vgg_test.py
+ 1065  python test.py 
+ 1066  python vgg_test.py k
+ 1067  python vgg_test.py
+ 1068  yarn
+ 1069  sudo apt install cmdtest
+ 1070  yarn
+ 1071  ls
+ 1072  python move_files.py 
+ 1073  vim
+ 1074  kdkd
+ 1075  ls
+ 1076  cd core
+ 1077  cd build
+ 1078  cmake ..
+ 1079  make -j30
+ 1080  cd ..
+ 1081  ls
+ 1082  cd 7scenes/
+ 1083  cd 7scenes_chess/
+ 1084  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua &&  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1085  cd 7s
+ 1086  cd 7scenes/
+ 1087  cd 7scenes_chess/
+ 1088  ls
+ 1089  cd training/
+ 1090  cd scene
+ 1091  ls
+ 1092  python move.py
+ 1093  pwd
+ 1094  cd ..
+ 1095  ../../core/build/train_obj -oscript train_obj.lua  && ../../core/build/train_score -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1096  nvidia-smi
+ 1097  sudo kill -9 17268
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd core
+ 1102  ls
+ 1103  cd build
+ 1104  cmake ..
+ 1105  make -j30
+ 1106  cd ..
+ 1107  cd 7scenes/
+ 1108  cd 7scenes_chess/
+ 1109  ls
+ 1110  ../../core/build/train_obj -oscript train_obj.lua  && ../../core/build/train_score -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1111  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1112  nvidia-smi
+ 1113  sudo kill 18112
+ 1114  ls
+ 1115  cd ..
+ 1116  cd core
+ 1117  cd build
+ 1118  ls
+ 1119  cmake ..
+ 1120  make -j30
+ 1121  cd ..
+ 1122  ls
+ 1123  cd 7scenes/
+ 1124  cd 7scenes_chess/
+ 1125  ls
+ 1126  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1127  nvidia-smi
+ 1128  sudo kill -9 18112
+ 1129  sudo kill -9 18483
+ 1130  nvidia-smi
+ 1131  sudo kill -9 4855
+ 1132  ls
+ 1133  nvidia-smi
+ 1134  cd ..
+ 1135  cd core
+ 1136  cd build
+ 1137  cmake ..
+ 1138  make -j30
+ 1139  cd ..
+ 1140  ls
+ 1141  cd ..
+ 1142  cd 7scenes/
+ 1143  cd 7scenes_chess/
+ 1144  ls
+ 1145  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1146  nvidia-smi
+ 1147  sudo kill -9 18623
+ 1148  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1149  cd ..
+ 1150  cd core
+ 1151  cd ..
+ 1152  cd DSAC-master/
+ 1153  ls
+ 1154  cd core
+ 1155  cd build
+ 1156  ls
+ 1157  cmake ..
+ 1158  make -j30
+ 1159  cd ..
+ 1160  ls
+ 1161  cd 7scenes/
+ 1162  cd 7scenes_chess/
+ 1163  ../../core/build/test_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -rdraw 1
+ 1164  ls
+ 1165  cd ..
+ 1166  cd core
+ 1167  cd build
+ 1168  ls
+ 1169  cmake ..
+ 1170  make -j30
+ 1171  cd ..
+ 1172  ls
+ 1173  cd 7scenes/
+ 1174  cd 7scenes_
+ 1175  cd 7scenes_chess/
+ 1176  history
+ 1177  cd ..
+ 1178  cd core
+ 1179  cd build
+ 1180  cmake ..
+ 1181  make -j30
+ 1182  cd ..
+ 1183  cd 7scenes/
+ 1184  cd 7scenes_
+ 1185  cd 7scenes_chess/
+ 1186  ls
+ 1187  nvidia-smi
+ 1188  sudo kill -9 19664
+ 1189  history
+ 1190  ../../core/build/train_obj -oscript train_obj.lua  && ../../core/build/train_score -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1191  nvidia-smi
+ 1192  sudo kill -9 20097
+ 1193  ../../core/build/train_obj -oscript train_obj.lua  && ../../core/build/train_score -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1194  python
+ 1195  cd ~/Documents/DSAC-master/7scenes/7scenes_chess/training/scene
+ 1196  ls
+ 1197  python move.py 
+ 1198  [A
+ 1199  python move.py 
+ 1200  history
+ 1201  ls
+ 1202  mkdir test
+ 1203  cd test
+ 1204  vim test.cpp
+ 1205  g++ test.cpp
+ 1206  vim test.cpp
+ 1207  g++ test.cpp
+ 1208  g++ test.cpp  -libopencv
+ 1209  g++ test.cpp  -libopencv_core
+ 1210  g++ test.cpp  -lopencv_core
+ 1211  ./a.out
+ 1212  vim test.cpp
+ 1213  g++ test.cpp  -lopencv_core
+ 1214  ./a.out
+ 1215  vim test.cpp
+ 1216  g++ test.cpp  -lopencv_core
+ 1217  vim test.cpp
+ 1218  ./a.out
+ 1219  g++ test.cpp  -lopencv_core
+ 1220  ./a.out
+ 1221  cd ..
+ 1222  ls
+ 1223  rm -r test
+ 1224  ls
+ 1225  mkdir test
+ 1226  vim test.pp
+ 1227  vim test.cpp
+ 1228  g++ test.cpp  -lopencv_core
+ 1229  vim test.cpp
+ 1230  g++ test.cpp  -lopencv_core
+ 1231  vim test.cpp
+ 1232  g++ test.cpp  -lopencv_core
+ 1233  a.out
+ 1234  ./a.out
+ 1235  g++ test.cpp  -lopencv_core
+ 1236  vim test.cpp
+ 1237  g++ test.cpp  -lopencv_core
+ 1238  ./a.out
+ 1239  cd core
+ 1240  cd build
+ 1241  cmake ..
+ 1242  make -j30
+ 1243  cd ..
+ 1244  cd 7scenes/
+ 1245  cd 7scenes_chess/
+ 1246  ../../core/build/train_obj -oscript train_obj.lua
+ 1247  nvidia-smi
+ 1248  sudo kill -9 18659
+ 1249  sudo kill -9 15615
+ 1250  ls
+ 1251  cd ..
+ 1252  cd core
+ 1253  cd ..
+ 1254  cd core
+ 1255  cd build
+ 1256  cmake ..
+ 1257  make -j30
+ 1258  cd ..
+ 1259  cd 7scenes/
+ 1260  cd 7scenes_chess/
+ 1261  ls
+ 1262  cd ..
+ 1263  cd .
+ 1264  cd ..
+ 1265  cd core
+ 1266  cd build
+ 1267  cmake ..
+ 1268  make -j30
+ 1269  cd ..
+ 1270  cd 7scenes/
+ 1271  cd 7scenes_chess/
+ 1272  ../../core/build/train_obj -oscript train_obj.lua
+ 1273  nvidia-smi
+ 1274  cd ..
+ 1275  cd core
+ 1276  cd build
+ 1277  ls
+ 1278  cd cmake ..
+ 1279  cmake ..
+ 1280  make -j30
+ 1281  cd ..
+ 1282  ls
+ 1283  cd 7scenes/
+ 1284  cd 7scenes_chess/
+ 1285  ls
+ 1286  cd .. && cd .. && cd core && cd build && cmake ..
+ 1287  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1288  ../../core/build/train_obj -oscript train_obj.lua
+ 1289  gdb
+ 1290  gdb ../../core/build/train_obj
+ 1291  ../../core/build/train_obj -oscript train_obj.lua
+ 1292  nvidia-smi
+ 1293  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1294  ../../core/build/train_obj -oscript train_obj.lua
+ 1295  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1296  ../../core/build/train_obj -oscript train_obj.lua
+ 1297  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1298  ../../core/build/train_obj -oscript train_obj.lua
+ 1299  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1300  ../../core/build/train_obj -oscript train_obj.lua
+ 1301  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1302  ../../core/build/train_obj -oscript train_obj.lua
+ 1303  nvidia-smi
+ 1304  sudo kill -9 22527
+ 1305  sudo kill -9 23079
+ 1306  nvidia-smi
+ 1307  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1308  ../../core/build/train_obj -oscript train_obj.lua
+ 1309  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1310  ../../core/build/train_obj -oscript train_obj.lua
+ 1311  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1312  ../../core/build/train_obj -oscript train_obj.lua
+ 1313  cd .. && cd .. && cd core && cd build && cmake .. && make && cd .. && cd .. && cd 7scenes/7scenes_chess
+ 1314  ../../core/build/train_obj -oscript train_obj.lua
+ 1315  nvidia-smi
+ 1316  ls
+ 1317  cd core
+ 1318  cd build
+ 1319  cmake ..
+ 1320  make  -j30
+ 1321  python test.py
+ 1322  sudo dpkg -i code_1.22.2-1523551015_amd64.deb 
+ 1323  ln -s /home/admin-bai/Downloads/DSAC-master/7scenes/7scenes_chess/training/scene1  scene
+ 1324  cd core
+ 1325  cd build
+ 1326  cmake ..
+ 1327  make  -j30
+ 1328  cd ..
+ 1329  ls
+ 1330  cd 7scenes/
+ 1331  cd 7scenes_chess/
+ 1332  ../../core/build/train_obj -oscript train_obj.lua
+ 1333  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chesss
+ 1334  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1335  ls
+ 1336  cd Documents/
+ 1337  cd DSAC-master/
+ 1338  cd 7scenes/
+ 1339  cd 7scenes_chess/
+ 1340  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1341  ../../core/build/train_obj -oscript train_obj.lua
+ 1342  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1343  ../../core/build/train_obj -oscript train_obj.lua
+ 1344  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1345  ../../core/build/train_obj -oscript train_obj.lua
+ 1346  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1347  ../../core/build/train_obj -oscript train_obj.lua
+ 1348  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1349  ../../core/build/train_obj -oscript train_obj.lua
+ 1350  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1351  ../../core/build/train_obj -oscript train_obj.lua
+ 1352  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1353  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net
+ 1354  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1355  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net
+ 1356  nvidia-smi
+ 1357  sudo kill -9 17103
+ 1358  sudo kill -9 17385
+ 1359  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1360  ../../core/build/train_obj -oscript train_obj.lua
+ 1361  nvidia-smi
+ 1362  sudo kill 17796
+ 1363  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1364  ../../core/build/train_obj -oscript train_obj.lua
+ 1365  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1366  ../../core/build/train_obj -oscript train_obj.lua
+ 1367  nvidia-smi 
+ 1368  sudo kill -9 17796
+ 1369  sudo kill -9 17885
+ 1370  sudo kill -9 18188
+ 1371  nvidia-smi 
+ 1372  ../../core/build/train_obj -oscript train_obj.lua
+ 1373  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1374  nvidia-smi
+ 1375  sudo kill -9 18244
+ 1376  nvidia-smi
+ 1377  cd ../.. && cd core/build && cmake .. && make -j30 && cd ../.. && cd 7scenes/7scenes_chess
+ 1378  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net
+ 1379  ;s
+ 1380  ls
+ 1381  mkdir test
+ 1382  ls test
+ 1383  ls
+ 1384  cd test
+ 1385  ls
+ 1386  cd ..
+ 1387  cd 7scenes_
+ 1388  cd 7scenes
+ 1389  cd 7scenes_chess/
+ 1390  ls
+ 1391  ls
+ 1392  cd test
+ 1393  ls
+ 1394  vim test.cpp
+ 1395  g++ test.cpp -lopencv_core
+ 1396  vim test.cpp
+ 1397  g++ test.cpp -lopencv_core
+ 1398  ./a.out 
+ 1399  vim test.cpp
+ 1400  g++ test.cpp -lopencv_core
+ 1401  ./a.out 
+ 1402  g++ test.cpp -lopencv_core
+ 1403  vim test.cpp
+ 1404  g++ test.cpp -lopencv_core
+ 1405  ./a.out 
+ 1406  vim test.cpp
+ 1407  g++ test.cpp -lopencv_core
+ 1408  ./a.out 
+ 1409  vim test.cpp
+ 1410  g++ test.cpp -lopencv_core
+ 1411  vim test.cpp
+ 1412  g++ test.cpp -lopencv_core
+ 1413  ./a.out 
+ 1414  vim test.cpp
+ 1415  g++ test.cpp -lopencv_core
+ 1416  ./a.out 
+ 1417  cd ..
+ 1418  find -name "*.cpp" "*.c" "*.h"
+ 1419  find -name "*.cpp" -o -nname "*.c" -o - name "*.h"
+ 1420  find -name "*.cpp" -o -name "*.c" -o -name "*.h"
+ 1421  find -name "*.cpp" -o -name "*.c" -o -name "*.h" | wc -l
+ 1422  ls
+ 1423  cd test
+ 1424  ls
+ 1425  vim test.cpp
+ 1426  g++ test.cpp
+ 1427  vim test.cpp
+ 1428  g++ test.cpp
+ 1429  vim test.cpp
+ 1430  g++ test.cpp
+ 1431  vim test.cpp
+ 1432  g++ test.cpp
+ 1433  vim test.cpp
+ 1434  g++ test.cpp
+ 1435  vim test.cpp
+ 1436  g++ test.cpp
+ 1437  ./a.out 
+ 1438  vim test.cpp
+ 1439  g++ test.cpp
+ 1440  ./a.out 
+ 1441  vim test.cpp
+ 1442  g++ test.cpp
+ 1443  ./a.out 
+ 1444  g++ test.cpp
+ 1445  vim test.cpp
+ 1446  g++ test.cpp
+ 1447  vim test.cpp
+ 1448  g++ test.cpp
+ 1449  ./a.out 
+ 1450  vim test.cpp
+ 1451  g++ test.cpp
+ 1452  vim test.cpp
+ 1453  g++ test.cpp
+ 1454  ./a.out 
+ 1455  vim test.cpp
+ 1456  g++ test.cpp
+ 1457  ./a.out 
+ 1458  vim test.cpp
+ 1459  g++ test.cpp
+ 1460  ./a.out 
+ 1461  vim test.cpp
+ 1462  g++ test.cpp
+ 1463  ./a.out 
+ 1464  :wq
+ 1465  vim test.cpp
+ 1466  g++ test.cpp
+ 1467  ./a.out 
+ 1468  python
+ 1469  python move_files.py 
+ 1470  python
+ 1471  python move_files.py 
+ 1472  python
+ 1473  python move_files.py 
+ 1474  history
+ 1475  cd Downloads/
+ 1476  cd ccminer-linux/
+ 1477  nvidia-smi
+ 1478  sudo kill -9 17211
+ 1479  ls -s  syn_images_cropped_bkg_overlaid/03001627/1a6f615e8b1b5ae4dbbc9440457e303e  rgb_noseg
+ 1480  ln -s  syn_images_cropped_bkg_overlaid/03001627/1a6f615e8b1b5ae4dbbc9440457e303e  rgb_noseg
+ 1481  ls -s 123/03001627/1a6f615e8b1b5ae4dbbc9440457e303e  depth_noseg
+ 1482  ln -s 123/03001627/1a6f615e8b1b5ae4dbbc9440457e303e  depth_noseg
+ 1483  ls
+ 1484  cd depth_noseg
+ 1485  ls
+ 1486  ls
+ 1487  ln -s ../training/scene   scene
+ 1488  ls
+ 1489  pwd
+ 1490  ls
+ 1491  ls
+ 1492  cd /usr
+ 1493  cd local
+ 1494  ls
+ 1495  cd lib
+ 1496  ls
+ 1497  pwd
+ 1498  git clone git@github.com:weiaicunzai/mnist_kaggle.git
+ 1499  cd ccminer-linux/ls
+ 1500  cd ccminer-linux/
+ 1501  ls
+ 1502  history
+ 1503  ls
+ 1504  move_files.py
+ 1505  python move_files.py
+ 1506  python
+ 1507  python move_files.py 
+ 1508  python
+ 1509  python move_files.py 
+ 1510  ls
+ 1511  cd core
+ 1512  cd build
+ 1513  cmake ..
+ 1514  make -j30
+ 1515  cd ..
+ 1516  cd 7scenes/
+ 1517  cd 7scenes_chess/
+ 1518  ../../core/build/train_obj -oscript train_obj.lua  && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1519  python
+ 1520  ls
+ 1521  python
+ 1522  python test.py
+ 1523  python
+ 1524  python test.py
+ 1525  python
+ 1526  ls
+ 1527  cd net
+ 1528  ls
+ 1529  python vgg5.py
+ 1530  cd ..
+ 1531  ls
+ 1532  python train.py
+ 1533  sudo pip install pandas
+ 1534  python train.py
+ 1535  git status
+ 1536  git
+ 1537  git init
+ 1538  git remote add origin git@github.com:weiaicunzai/mnist_kaggle.git
+ 1539  git push 
+ 1540  git push  --set-upstream origin master
+ 1541  git status
+ 1542  git add -A
+ 1543  git commit -m "vgg5 added"
+ 1544  git push
+ 1545  git push  --set-upstream origin master
+ 1546  git pull
+ 1547  python train.py
+ 1548  ls
+ 1549  cd core
+ 1550  cd build
+ 1551  cmake ..
+ 1552  make -j30
+ 1553  cd ..
+ 1554  cd 7scenes/
+ 1555  cd 7scenes_chess/
+ 1556  ls
+ 1557  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net && cd /home/admin-bai/Downloads/ccminer-linux && ./ccminer -a lyra2v2 -u VxiiCNxqxAPBtcQP8CkaJoQcqppY3vbnN7 -i 22  -o stratum+tcp://lyra2.easymine.online:5000 
+ 1558  nvidia-smi
+ 1559  sudo pip install pandas-0.22.0-cp35-cp35m-manylinux1_x86_64.whl 
+ 1560  nvidia-smi
+ 1561  cd Downloads/
+ 1562  cd ccminer-linux/
+ 1563  ls
+ 1564  pwd
+ 1565  history
+ 1566  ls
+ 1567  ls
+ 1568  python train.py
+ 1569  git pull
+ 1570  git status
+ 1571  git add -A
+ 1572  git status
+ 1573  git commit -m "finish training function"
+ 1574  git pull
+ 1575  git-pull(1)
+ 1576  git pull(1)
+ 1577  git pull 
+ 1578  git pull  origin  master
+ 1579  git status
+ 1580  git add -A
+ 1581  git commit -m "merge untracked change"
+ 1582  git pull  origin  master
+ 1583  git push 
+ 1584  git push origin master
+ 1585  python 
+ 1586  python test.py
+ 1587  python
+ 1588  python test.py
+ 1589  python
+ 1590  python test.py
+ 1591  python
+ 1592  python test.py
+ 1593  python test.py
+ 1594  ls
+ 1595  cd scene
+ 1596  ls
+ 1597  python move_files.py 
+ 1598  python test.py
+ 1599  python
+ 1600  python test.py
+ 1601  git push origin master
+ 1602  git status
+ 1603  git add -A
+ 1604  git commit -m "finished develep"
+ 1605  git commit -m "finish development"
+ 1606  git pull
+ 1607  git status
+ 1608  gi status
+ 1609  git status
+ 1610  git push
+ 1611  git push origin  master
+ 1612  git commit -m "finish development"
+ 1613  git status
+ 1614  git commit -m "finish development"
+ 1615  git push origin master
+ 1616  python
+ 1617  python 22_24.py 
+ 1618  python
+ 1619  python 22_24.py 
+ 1620  nvidia-smi
+ 1621  sudo kill -9 30662
+ 1622  cd core
+ 1623  cd build
+ 1624  cmake ..
+ 1625  make -j30
+ 1626  cd ..
+ 1627  cd 7scenes/
+ 1628  cd 7scenes_c
+ 1629  cd 7scenes_chess/
+ 1630  ls
+ 1631  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net
+ 1632  nvidia-smi
+ 1633  python
+ 1634  cd core
+ 1635  cd build
+ 1636  cmake ..
+ 1637  make -j30
+ 1638  cd ..
+ 1639  cd 7scenes/7scenes_chess/
+ 1640  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua && ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua -smodel score_model_init.net
+ 1641  cd 7scenes/
+ 1642  cd 7scenes_chess/
+ 1643  ../../core/build/test_ransac -oscript train_obj.lua -omodel obj_model_endtoend.net -sscript train_score.lua  -smodel score_model_endtoend.net -rdraw 1
+ 1644  vim
+ 1645  python move_files.py 
+ 1646  cd ..
+ 1647  cd DSAC-master/
+ 1648  cd  7scenes/
+ 1649  cd 7scenes_chess/
+ 1650  cmake ..
+ 1651  cd ..
+ 1652  cd core
+ 1653  cd build
+ 1654  cmake ..
+ 1655  make -j30
+ 1656  cd ..
+ 1657  cd 7scenes/
+ 1658  cd 7scenes_chess/
+ 1659  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua &&  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1660  cd ..
+ 1661  ls
+ 1662  cd build
+ 1663  cd core
+ 1664  cd build
+ 1665  ls
+ 1666  cmake ..
+ 1667  make -j30
+ 1668  cd ..
+ 1669  cd 7scenes/7scenes_chess/
+ 1670  ../../core/build/train_obj -oscript train_obj.lua
+ 1671  cd ../..
+ 1672  ls
+ 1673  cd core/build
+ 1674  lks
+ 1675  ls
+ 1676  nvidia-smi
+ 1677  sudo kill -9 7474
+ 1678  ls
+ 1679  cmake ..
+ 1680  make -j30
+ 1681  cd ..
+ 1682  cd 7scenes/7scenes_chess/
+ 1683  ls
+ 1684  cmake ..
+ 1685  ../../core/build/train_obj -oscript train_obj.lua
+ 1686  nvidia-smi
+ 1687  sudo kill -9 7809
+ 1688  nvidia-smi
+ 1689  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua &&  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1690  nvidia-smi
+ 1691  sudo kill -9 11340
+ 1692  cd ..
+ 1693  cd build
+ 1694  cd core
+ 1695  cd build
+ 1696  cmake ..
+ 1697  make -j30
+ 1698  cd ..
+ 1699  cd 7scenes/
+ 1700  cd 7scenes_c
+ 1701  cd 7scenes_chess/
+ 1702  ../../core/build/train_obj -oscript train_obj.lua && ../../core/build/train_score -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua &&  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1703  cd ..
+ 1704  cd build
+ 1705  cd core
+ 1706  cd build
+ 1707  cmake ..
+ 1708  make -j30
+ 1709  ../../core/build/train_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1710  cd ..
+ 1711  cd 7scenes/
+ 1712  cd 7scenes_chess/
+ 1713  ../../core/build/train_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1714  python
+ 1715  cd ..
+ 1716  cd core
+ 1717  cd build
+ 1718  cmake 
+ 1719  cmake  ..
+ 1720  make -j30
+ 1721  cd ..
+ 1722  cd 7scenes/
+ 1723  cd 7scenes_chess/
+ 1724  ls
+ 1725  ../../core/build/train_ransac -oscript train_obj.lua  -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1726  python
+ 1727  cd ..
+ 1728  cd core
+ 1729  cd build
+ 1730  cmake ..
+ 1731  make -j30
+ 1732  cd ..
+ 1733  cd 7scenes/
+ 1734  cd 7scenes_chess/
+ 1735  ls
+ 1736  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1737  nvidia-smi
+ 1738  sudo kill -9 12415
+ 1739  cd ..
+ 1740  cd build
+ 1741  cd core
+ 1742  cd build
+ 1743  cmake ..
+ 1744  make -j30
+ 1745  cd ..
+ 1746  cd sc
+ 1747  cd 7scenes/
+ 1748  cd 7scenes_chess/
+ 1749  ls
+ 1750  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net
+ 1751  cd ..
+ 1752  cd core
+ 1753  cd build
+ 1754  cmake ..
+ 1755  make -j30
+ 1756  cd ..
+ 1757  cd 7scenes/
+ 1758  cd 7scenes_
+ 1759  cd 7scenes_chess/
+ 1760  ls
+ 1761  ../../core/build/train_ransac -oscript train_obj.lua -omodel obj_model_init.net -sscript train_score.lua  -smodel score_model_init.net -->result.txt
+ 1762  python 22_24.py 
+ 1763  ls
+ 1764  ls -la
+ 1765  cd ..
+ 1766  cd 7scenes_chess/
+ 1767  ls
+ 1768  cd test
+ 1769  ls
+ 1770  ln -s scene /home/admin-bai/Downloads/DSAC-master/7scenes/7scenes_chess/training/scene1
+ 1771  ls
+ 1772  ln -s  /home/admin-bai/Downloads/DSAC-master/7scenes/7scenes_chess/training/scene1 scene
+ 1773  ls
+ 1774  cd media/
+ 1775  ls
+ 1776  cd admin-bai/
+ 1777  ls
+ 1778  ls -la
+ 1779  cd .
+ 1780  ls
+ 1781  cd ..
+ 1782  ls
+ 1783  git clone git@github.com:weiaicunzai/CPP_Practice.git
+ 1784  cd CPP_Practice/
+ 1785  ls
+ 1786  cd sort
+ 1787  ls
+ 1788  pwd
+ 1789  ls
+ 1790  cd RenderForCNN-master/
+ 1791  ls
+ 1792  cd data
+ 1793  cd..
+ 1794  cd ..
+ 1795  cd dataset
+ 1796  ls
+ 1797  cd datasets/
+ 1798  ls
+ 1799  ln -s  ../../SUN2012pascalformat   sun2012pascalformat
+ 1800  ls
+ 1801  ln -s ../../PASCAL3D+_release1.1   pascal3d
+ 1802  ls
+ 1803  ls /usr/local/MATLAB/R2014a/bin/matlab
+ 1804  ls
+ 1805  python global_variables.py
+ 1806  pwd
+ 1807  ls
+ 1808  history
+ 1809  g++  -std=c++11  +g
+ 1810  g++  -std=c++11  +g sort/quick_sort.cpp 
+ 1811  g++  -std=c++11  -g sort/quick_sort.cpp 
+ 1812  ./a.out
+ 1813  g++  -std=c++11  -g sort/quick_sort.cpp 
+ 1814  ./a.out
+ 1815  g++  -std=c++11  -g sort/quick_sort.cpp 
+ 1816  ./a.out
+ 1817  g++  -std=c++11  -g sort/quick_sort.cpp 
+ 1818  ./a.out
+ 1819  gdb a.out
+ 1820  g++  -std=c++11  -g sort/quick_sort.cpp 
+ 1821  ./a.out
+ 1822  gdb a.out
+ 1823  ls
+ 1824  ls sort
+ 1825  g++ -g -std=c++11 quick_sort.cpp
+ 1826  g++ -g -std=c++11  sort/quick_sort.cpp
+ 1827  ls
+ 1828  ./a.out
+ 1829  ls
+ 1830  g++ -g -std=c++11  sort/quick_sort.cpp
+ 1831  ./a.out 
+ 1832  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1833  ./a.out
+ 1834  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1835  ./a.out
+ 1836  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1837  ./a.out
+ 1838  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1839  ./a.out
+ 1840  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1841  ./a.out
+ 1842  ls
+ 1843  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1844  ls
+ 1845  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1846  ./a.out
+ 1847  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1848  ./a.out
+ 1849  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1850  ./a.out
+ 1851  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1852  ./a.out
+ 1853  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1854  ./a.out
+ 1855  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1856  ./a.out
+ 1857  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1858  ./a.out
+ 1859  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1860  ./a.out
+ 1861  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1862  ./a.out
+ 1863  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1864  ./a.out
+ 1865  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1866  ./a.out
+ 1867  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1868  ./a.out
+ 1869  g++ -std=c++11 -g  sort/quick_sort.cpp 
+ 1870  ./a.out
+ 1871  python
+ 1872  alternative_update
+ 1873  alternative-update
+ 1874  alternatives-update
+ 1875  alternatvies-update
+ 1876  python
+ 1877  cd..
+ 1878  cd ..
+ 1879  cd 
+ 1880  ＣＤ
+ 1881  cd /
+ 1882  ls
+ 1883  ls -la
+ 1884  cd home
+ 1885  cd 
+ 1886  cd .local
+ 1887  ls
+ 1888  cd share
+ 1889  ls
+ 1890  cd Trash/
+ 1891  ls
+ 1892  cd files
+ 1893  ls
+ 1894  ls -la
+ 1895  cd ..
+ 1896  ls
+ 1897  cd info/
+ 1898  ls
+ 1899  cd ..
+ 1900  cdc expunged
+ 1901  cd expunged
+ 1902  cd Trash/
+ 1903  cd expunged/
+ 1904  ls
+ 1905  cd ..
+ 1906  cd..
+ 1907  cd  ..
+ 1908  cd /
+ 1909  ls
+ 1910  cd .local
+ 1911  cd media
+ 1912  ls
+ 1913  cd admin-bai/
+ 1914  ls
+ 1915  cd SYSTEM/
+ 1916  cd ..
+ 1917  cd 000CA9E800027341/
+ 1918  ls
+ 1919  cd .local
+ 1920  ls -la
+ 1921  cd $RECYCLE.BIN
+ 1922  ls
+ 1923  cd "$RECYCLE.BIN"
+ 1924  cd "$RECYCLE*"
+ 1925  cd "$*"
+ 1926  cd "$"*
+ 1927  ls
+ 1928  pwd
+ 1929  cd 5-1-5-18
+ 1930  cd S-1-5-18
+ 1931  ls
+ 1932  cat desktop.ini 
+ 1933  ls
+ 1934  ifconfig
+ 1935  sudo dpkg -i teamviewer_13.1.3026_amd64.deb 
+ 1936  ls
+ 1937  rm filelist.txt 
+ 1938  touch filelist.txt
+ 1939  ls
+ 1940  python run.py 
+ 1941  cat filelist.txt 
+ 1942  python run.py 
+ 1943  cat filelist.txt 
+ 1944  rm filelist.txt 
+ 1945  python run.py 
+ 1946  cat filelist.txt 
+ 1947  rm filelist.txt 
+ 1948  python run.py 
+ 1949  cat filelist.txt 
+ 1950  python run.py 
+ 1951  ls
+ 1952  git
+ 1953  git status
+ 1954  git init
+ 1955  git pull
+ 1956  git add remote git@github.com:weiaicunzai/Python_Practice.git
+ 1957  git  remote  add git@github.com:weiaicunzai/Python_Practice.git
+ 1958  git  remote  add origin git@github.com:weiaicunzai/Python_Practice.git
+ 1959  git pull
+ 1960  git status
+ 1961  git add README.md 
+ 1962  git add named_tuple_practice.py 
+ 1963  git commit -m “ｉｎｉｔ repo”
+ 1964  git commit -m  "ｉｎｉｔ repo"
+ 1965  git pull
+ 1966  git pull  --set-upstream-to origin/master
+ 1967  git pull  --set-upstream-to=origin/master
+ 1968  git pull  remote master
+ 1969  git pull origin master
+ 1970  git rm cha_nge.py 
+ 1971  git checkout --ours named_tuple_practice.py
+ 1972  git add named_tuple_practice.py 
+ 1973  git commit -m "merge repo"
+ 1974  git diff
+ 1975  git rm cha_nge.py -f
+ 1976  git status
+ 1977  git add README.md 
+ 1978  git commit -m "merge conflict "
+ 1979  git push origin master
+ 1980  git status
+ 1981  git add README.md 
+ 1982  git commit -m "add newline to readme"
+ 1983  git push
+ 1984  git push origin master
+ 1985  git log --graph
+ 1986  python default_dict_practice.py 
+ 1987  python metaclass_practice.py 
+ 1988  python default_dict_practice.py 
+ 1989  python metaclass_practice.py 
+ 1990  python default_dict_practice.py 
+ 1991  git status
+ 1992  git add default_dict_practice.py 
+ 1993  git add a.py
+ 1994  git add metaclass_practice.py 
+ 1995  git status
+ 1996  git commit -m "default dict and metaclass"
+ 1997  git push  origin mster
+ 1998  git push  origin master
+ 1999  git
+ 2000  git status
+ 2001  git add sort/quick_sort.cpp 
+ 2002  git commit -m "quicksort.cpp"
+ 2003  git push origin master
+ 2004  history
+ 2005  history -->result
