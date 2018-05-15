@@ -125,6 +125,32 @@ void quickSort1(std::vector<int> &arr)
 
 // this parition implementation is called 
 //  Hoare Partitioning
+// gcc stl also use Hoare partition in std::sort
+
+
+/*
+template<typename _RandomAccessIterator, typename _Compare>
+    _RandomAccessIterator
+    __unguarded_partition(_RandomAccessIterator __first,
+			  _RandomAccessIterator __last,
+			  _RandomAccessIterator __pivot, _Compare __comp)
+    {
+      while (true)
+	{
+	  while (__comp(__first, __pivot))
+	    ++__first;
+	  --__last;
+	  while (__comp(__pivot, __last))
+	    --__last;
+	  if (!(__first < __last))
+	    return __first;
+	  std::iter_swap(__first, __last);
+	  ++__first;
+	}
+}
+*/
+
+
 int partition2(std::vector<int> &arr, int low, int high)
 {
     //int key = arr[high];
