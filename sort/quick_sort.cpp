@@ -127,7 +127,6 @@ void quickSort1(std::vector<int> &arr)
 //  Hoare Partitioning
 // gcc stl also use Hoare partition in std::sort
 
-
 /*
 template<typename _RandomAccessIterator, typename _Compare>
     _RandomAccessIterator
@@ -148,7 +147,23 @@ template<typename _RandomAccessIterator, typename _Compare>
 	  ++__first;
 	}
 }
+
+
+// and choose middle index as pivot:
+
+
+  template<typename _RandomAccessIterator, typename _Compare>
+    inline _RandomAccessIterator
+    __unguarded_partition_pivot(_RandomAccessIterator __first,
+				_RandomAccessIterator __last, _Compare __comp)
+    {
+      _RandomAccessIterator __mid = __first + (__last - __first) / 2;
+      std::__move_median_to_first(__first, __first + 1, __mid, __last - 1,
+				  __comp);
+      return std::__unguarded_partition(__first + 1, __last, __first, __comp);
+}
 */
+
 
 
 int partition2(std::vector<int> &arr, int low, int high)
