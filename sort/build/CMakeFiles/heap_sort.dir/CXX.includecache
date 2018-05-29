@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/admin-bai/Downloads/CPP_Practice/sort/heap_sort.cpp
+algorithm
+-
+iostream
+-
+vector
+-
+
