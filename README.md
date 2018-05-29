@@ -15,7 +15,7 @@ heapsort
 #### *complie*
 
 ```shell
-cd build
+cd sort/build
 cmake .
 make
 ```
