@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/insertion_sort.dir/DependInfo.cmake"
-  "CMakeFiles/heap_sort.dir/DependInfo.cmake"
+  "CMakeFiles/bucket_sort.dir/DependInfo.cmake"
   "CMakeFiles/quick_sort.dir/DependInfo.cmake"
+  "CMakeFiles/heap_sort.dir/DependInfo.cmake"
   )

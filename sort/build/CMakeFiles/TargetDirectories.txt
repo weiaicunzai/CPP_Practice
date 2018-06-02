@@ -1,5 +1,6 @@
 /home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/edit_cache.dir
 /home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/insertion_sort.dir
-/home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/heap_sort.dir
-/home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/quick_sort.dir
+/home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/bucket_sort.dir
 /home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/rebuild_cache.dir
+/home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/quick_sort.dir
+/home/admin-bai/Downloads/CPP_Practice/sort/build/CMakeFiles/heap_sort.dir

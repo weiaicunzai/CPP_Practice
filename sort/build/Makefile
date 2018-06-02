@@ -124,17 +124,17 @@ insertion_sort/fast:
 .PHONY : insertion_sort/fast
 
 #=============================================================================
-# Target rules for targets named heap_sort
+# Target rules for targets named bucket_sort
 
 # Build rule for target.
-heap_sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 heap_sort
-.PHONY : heap_sort
+bucket_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bucket_sort
+.PHONY : bucket_sort
 
 # fast build rule for target.
-heap_sort/fast:
-	$(MAKE) -f CMakeFiles/heap_sort.dir/build.make CMakeFiles/heap_sort.dir/build
-.PHONY : heap_sort/fast
+bucket_sort/fast:
+	$(MAKE) -f CMakeFiles/bucket_sort.dir/build.make CMakeFiles/bucket_sort.dir/build
+.PHONY : bucket_sort/fast
 
 #=============================================================================
 # Target rules for targets named quick_sort
@@ -148,6 +148,46 @@ quick_sort: cmake_check_build_system
 quick_sort/fast:
 	$(MAKE) -f CMakeFiles/quick_sort.dir/build.make CMakeFiles/quick_sort.dir/build
 .PHONY : quick_sort/fast
+
+#=============================================================================
+# Target rules for targets named heap_sort
+
+# Build rule for target.
+heap_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 heap_sort
+.PHONY : heap_sort
+
+# fast build rule for target.
+heap_sort/fast:
+	$(MAKE) -f CMakeFiles/heap_sort.dir/build.make CMakeFiles/heap_sort.dir/build
+.PHONY : heap_sort/fast
+
+bucket_sort.o: bucket_sort.cpp.o
+
+.PHONY : bucket_sort.o
+
+# target to build an object file
+bucket_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/bucket_sort.dir/build.make CMakeFiles/bucket_sort.dir/bucket_sort.cpp.o
+.PHONY : bucket_sort.cpp.o
+
+bucket_sort.i: bucket_sort.cpp.i
+
+.PHONY : bucket_sort.i
+
+# target to preprocess a source file
+bucket_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/bucket_sort.dir/build.make CMakeFiles/bucket_sort.dir/bucket_sort.cpp.i
+.PHONY : bucket_sort.cpp.i
+
+bucket_sort.s: bucket_sort.cpp.s
+
+.PHONY : bucket_sort.s
+
+# target to generate assembly for a file
+bucket_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/bucket_sort.dir/build.make CMakeFiles/bucket_sort.dir/bucket_sort.cpp.s
+.PHONY : bucket_sort.cpp.s
 
 heap_sort.o: heap_sort.cpp.o
 
@@ -238,9 +278,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... insertion_sort"
-	@echo "... heap_sort"
-	@echo "... quick_sort"
+	@echo "... bucket_sort"
 	@echo "... rebuild_cache"
+	@echo "... quick_sort"
+	@echo "... heap_sort"
+	@echo "... bucket_sort.o"
+	@echo "... bucket_sort.i"
+	@echo "... bucket_sort.s"
 	@echo "... heap_sort.o"
 	@echo "... heap_sort.i"
 	@echo "... heap_sort.s"

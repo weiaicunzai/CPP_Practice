@@ -141,7 +141,7 @@ void insertionSort(std::vector<int> &arr)
 
         //if not, we do the regular insertion_sort
         while(j >=0 && key <= arr[j])
-            arr[j+1] = arr[j--];
+            arr[j + 1] = arr[j--];
         arr[j + 1] = key;
         displayArr(arr);
     }
