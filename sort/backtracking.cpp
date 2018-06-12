@@ -43,6 +43,7 @@ bool Maze::findMaze(int entrance)
     {
         if(entrance == this->exit)
         {
+            //only push when return true
             result.push_back(entrance);
             return true;
         }
@@ -79,6 +80,7 @@ void Maze::getResult()
         std::cout << n << std::endl;
     }
 }
+
 int main()
 {
     Crossing c1(2, 0, 0);

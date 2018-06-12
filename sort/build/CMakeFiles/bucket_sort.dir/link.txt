@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=gnu++11 -g   CMakeFiles/bucket_sort.dir/bucket_sort.cpp.o  -o bucket_sort -rdynamic 
