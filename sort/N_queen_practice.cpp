@@ -21,7 +21,7 @@ bool checkConflict(arr2D arr, int col, int row)
 {
     for (int c = 0; c < col; c++)
     {
-        for (int r = 0; r < 4; r++)
+        for (int r = 0; r < arr.size(); r++)
         {
             //if we found the queen in
             // c th column
@@ -41,16 +41,21 @@ bool checkConflict(arr2D arr, int col, int row)
 
 bool solveUtil(arr2D &arr, int col)
 {
-    if(col >= 4)
+    if(col >= arr.size())
+    {
+        printSolution(arr);
+        std::cout << std::endl;
         return true;
-    for(int row = 0; row < 4; row++)
+    }
+
+    bool res = false;
+    for(int row = 0; row < arr.size(); row++)
     {
         //for 0th col
         if(!col)
         {
             arr[row][col] = 1;
-            if(solveUtil(arr, col + 1))
-                return true;
+            res = solveUtil(arr, col + 1) || res;
             arr[row][col] = 0; // backtracking
         }
         else
@@ -63,26 +68,22 @@ bool solveUtil(arr2D &arr, int col)
             if(!checkConflict(arr, col, row)) continue;
             arr[row][col] = 1;
 
-            if(solveUtil(arr, col + 1))
-                    return true;
+            res = solveUtil(arr, col + 1) || res;
             
             arr[row][col] = 0;  // backtracking
         }
 
         
     }
-    //std::cout << col << std::endl;
-    //std::cout << std::endl;
-    //    printSolution(arr);
-    return false;
+    return res;
 }
 
-bool solveNQ(arr2D &board)
+bool solveNQ(arr2D &board, int N)
 {
-    for(int row = 0; row < 4; row++)
+    for(int row = 0; row < N; row++)
     {
         board.push_back(std::vector<int>());
-        for(int col = 0; col < 4; col++)
+        for(int col = 0; col < N; col++)
             board[row].push_back(0);
     }
 
@@ -95,8 +96,9 @@ int main()
 {
 
     arr2D board;
-    if(solveNQ(board))
-        printSolution(board);
+    int N = 4;
+    if(!solveNQ(board, N))
+        std::cout << "No solutions"  << std::endl;
     
     return 0;
 }
