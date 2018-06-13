@@ -19,6 +19,8 @@ void printSolution(const arr2D& arr)
 
 bool checkConflict(arr2D arr, int col, int row)
 {
+    //if first column, no conflict
+    if(!col) return true;
     for (int c = 0; c < col; c++)
     {
         for (int r = 0; r < arr.size(); r++)
@@ -39,27 +41,17 @@ bool checkConflict(arr2D arr, int col, int row)
     return true;
 }
 
-bool solveUtil(arr2D &arr, int col)
+void solveUtil(arr2D &arr, int col)
 {
     if(col >= arr.size())
     {
         printSolution(arr);
         std::cout << std::endl;
-        return true;
+        return;
     }
 
-    bool res = false;
     for(int row = 0; row < arr.size(); row++)
     {
-        //for 0th col
-        if(!col)
-        {
-            arr[row][col] = 1;
-            res = solveUtil(arr, col + 1) || res;
-            arr[row][col] = 0; // backtracking
-        }
-        else
-        {
             // for col != 0
             // we iterate through the first
             //(col - 1) cols, find 1 and its
@@ -67,18 +59,13 @@ bool solveUtil(arr2D &arr, int col)
             
             if(!checkConflict(arr, col, row)) continue;
             arr[row][col] = 1;
-
-            res = solveUtil(arr, col + 1) || res;
-            
+            solveUtil(arr, col + 1);
             arr[row][col] = 0;  // backtracking
-        }
-
-        
     }
-    return res;
+    return;
 }
 
-bool solveNQ(arr2D &board, int N)
+void solveNQ(arr2D &board, int N)
 {
     for(int row = 0; row < N; row++)
     {
@@ -87,18 +74,15 @@ bool solveNQ(arr2D &board, int N)
             board[row].push_back(0);
     }
 
-   // printSolution(board);
-    return solveUtil(board, 0);
+    solveUtil(board, 0);
+    return;
 }
-
 
 int main()
 {
-
     arr2D board;
-    int N = 4;
-    if(!solveNQ(board, N))
-        std::cout << "No solutions"  << std::endl;
+    int N = 5;
+    solveNQ(board, N);
     
     return 0;
 }
